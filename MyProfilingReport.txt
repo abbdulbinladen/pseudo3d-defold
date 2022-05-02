@@ -1,0 +1,83 @@
+	###############################################################################################################
+	#####  ProFi, a lua profiler. This profile was generated on: Mon May  2 00:30:09 2022
+	#####  ProFi is created by Luke Perkin 2012 under the MIT Licence, www.locofilm.co.uk
+	#####  Version 1.3. Get the most recent version at this gist: https://gist.github.com/2838755
+	###############################################################################################################
+
+	| TOTAL TIME = 0.669000
+| FILE                                              : FUNCTION                                : LINE                : TIME        : RELATIVE    : CALLED      |
+| main/scene.script                                 : anonymous                               :   64                : 0.242       : 36.17%      :     149     |
+| main/scene.script                                 : set_texture                             :   50                : 0.126       : 18.83%      :     149     |
+| m/p3d.lua                                         : draw_track                              :   46                : 0.086       : 12.86%      :     149     |
+| orthographic/camera.script                        : anonymous                               :   71                : 0.043       : 6.43%       :     149     |
+| orthographic/camera.lua                           : update                                  :  312                : 0.038       : 5.68%       :     149     |
+| m/utils.lua                                       : project                                 :    7                : 0.021       : 3.14%       :    1788     |
+| orthographic/render/orthographic.render_script    : anonymous                               :   22                : 0.014       : 2.09%       :     149     |
+| m/p3d.lua                                         : next_step                               :   20                : 0.007       : 1.05%       :    1795     |
+| orthographic/camera.lua                           : calculate_view                          :  226                : 0.006       : 0.90%       :     149     |
+| orthographic/camera.lua                           : send_view_projection                    :  685                : 0.003       : 0.45%       :     149     |
+| orthographic/camera.lua                           : refresh_cameras                         :  239                : 0.001       : 0.15%       :     298     |
+| orthographic/render/orthographic.render_script    : anonymous                               :   70                : 0.001       : 0.15%       :     150     |
+| orthographic/camera.script                        : anonymous                               :   64                : 0.001       : 0.15%       :     149     |
+| orthographic/camera.lua                           : get_view                                :  656                : 0.001       : 0.15%       :     149     |
+| orthographic/camera.lua                           : get_viewport                            :  666                : 0.000       : 0.00%       :     149     |
+| [C]                                               : (for generator)                         :   -1                : 0.000       : 0.00%       :     298     |
+| m/profi.lua                                       : startHooks                              :  234                : 0.000       : 0.00%       :       0     |
+| [C]                                               : set_blend_func                          :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : disable_state                           :   -1                : 0.000       : 0.00%       :     894     |
+| [C]                                               : set_depth_mask                          :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : __eq                                    :   -1                : 0.000       : 0.00%       :     151     |
+| [C]                                               : ipairs                                  :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : clear                                   :   -1                : 0.000       : 0.00%       :     149     |
+| orthographic/camera.lua                           : get_cameras                             :  478                : 0.000       : 0.00%       :     149     |
+| [C]                                               : enable_state                            :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : set_viewport                            :   -1                : 0.000       : 0.00%       :     298     |
+| orthographic/camera.lua                           : get_projection                          :  635                : 0.000       : 0.00%       :     149     |
+| [C]                                               : set_projection                          :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : url                                     :   -1                : 0.000       : 0.00%       :       1     |
+| orthographic/camera.lua                           : final                                   :  291                : 0.000       : 0.00%       :       1     |
+| main/scene.script                                 : anonymous                               :   73                : 0.000       : 0.00%       :       1     |
+| m/profi.lua                                       : shouldReturn                            :  199                : 0.000       : 0.00%       :       1     |
+| m/profi.lua                                       : stop                                    :   85                : 0.000       : 0.00%       :       1     |
+| [C]                                               : set_view                                :   -1                : 0.000       : 0.00%       :     298     |
+| orthographic/camera.script                        : anonymous                               :   59                : 0.000       : 0.00%       :       1     |
+| [C]                                               : get_window_height                       :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : __mul                                   :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : matrix4_orthographic                    :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : draw                                    :   -1                : 0.000       : 0.00%       :     596     |
+| [C]                                               : get_window_width                        :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : draw_debug3d                            :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : calculate_projection                    :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : matrix4_look_at                         :   -1                : 0.000       : 0.00%       :     149     |
+| orthographic/camera.lua                           : calculate_projection                    :   81                : 0.000       : 0.00%       :     149     |
+| [C]                                               : vector3                                 :   -1                : 0.000       : 0.00%       :     447     |
+| [C]                                               : fill                                    :   -1                : 0.000       : 0.00%       :     149     |
+| m/p3d.lua                                         : reset_camera_pos                        :   41                : 0.000       : 0.00%       :       7     |
+| m/utils.lua                                       : skew                                    :   12                : 0.000       : 0.00%       :     149     |
+| [C]                                               : line                                    :   -1                : 0.000       : 0.00%       :    1788     |
+| [C]                                               : skew                                    :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : set_texture                             :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : __newindex                              :   -1                : 0.000       : 0.00%       :    7904     |
+| [C]                                               : anonymous                               :   -1                : 0.000       : 0.00%       :    5365     |
+| [C]                                               : getTime                                 :   -1                : 0.000       : 0.00%       :       2     |
+| [C]                                               : __index                                 :   -1                : 0.000       : 0.00%       :   25926     |
+| m/profi.lua                                       : start                                   :   67                : 0.000       : 0.00%       :       0     |
+| [C]                                               : post                                    :   -1                : 0.000       : 0.00%       :     298     |
+| main/scene.script                                 : anonymous                               :   54                : 0.000       : 0.00%       :       0     |
+| [C]                                               : min                                     :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : get_id                                  :   -1                : 0.000       : 0.00%       :     299     |
+| [C]                                               : get                                     :   -1                : 0.000       : 0.00%       :    2235     |
+| [C]                                               : get_world_rotation                      :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : set_position                            :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : rotate                                  :   -1                : 0.000       : 0.00%       :     447     |
+| orthographic/camera.lua                           : calculate_projection                    :  218                : 0.000       : 0.00%       :     149     |
+| m/profi.lua                                       : stopHooks                               :  238                : 0.000       : 0.00%       :       1     |
+| [C]                                               : assert                                  :   -1                : 0.000       : 0.00%       :     895     |
+| [C]                                               : __add                                   :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : __sub                                   :   -1                : 0.000       : 0.00%       :     298     |
+| orthographic/camera.lua                           : update_window_size                      :  167                : 0.000       : 0.00%       :     149     |
+| [C]                                               : max                                     :   -1                : 0.000       : 0.00%       :     298     |
+| [C]                                               : get_size                                :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : get_position                            :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : get_world_position                      :   -1                : 0.000       : 0.00%       :     149     |
+| [C]                                               : sethook                                 :   -1                : 0.000       : 0.00%       :       1     |
